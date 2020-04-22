@@ -7,18 +7,18 @@ import MyFeatureLayer from './MyFeatureLayer';
 
 ReactDOM.render(
   <Map
-    mapProperties={{ basemap: 'satellite' }}
+    mapProperties={{ basemap: 'streets' }}
     viewProperties={{
-        center: [-70, 25],
-        zoom: 4
+        center: [-93, 39],
+        zoom: 5
     }}>
-    <BermudaTriangle />
+    {/* <BermudaTriangle />
     <MyFeatureLayer
       featureLayerProperties={{
         url: 'https://services.arcgis.com/P3ePLMYs2RVChkJx/arcgis/rest/services/World_Time_Zones/FeatureServer/0'
       }}
     >
-    </MyFeatureLayer>
+    </MyFeatureLayer> */}
   </Map>,
   document.getElementById('root')
 );
