@@ -71,6 +71,7 @@
     "url": "git+https://github.com/Esri/react-arcgis.git"
   },
   "scripts": {
+    "start": "run-s start",
     "build": "run-s build:types build:scripts",
     "build:types": "tsc",
     "build:scripts": "webpack -p",
